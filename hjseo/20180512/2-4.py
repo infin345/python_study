@@ -10,3 +10,10 @@ d = (4,)
 
 e = c + d
 print(e)
+
+#4
+f = [1, 2, 3]
+f.append([4, 5])
+#f.extend([4, 5])
+print(f)
+#extend는 매개변수로 List만 올 수 있다.
